@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C414FE62BE191B100C7F3D2 /* MainWeatherStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C414FE52BE191B100C7F3D2 /* MainWeatherStatus.swift */; };
+		8C414FE82BE191EC00C7F3D2 /* CityText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C414FE72BE191EC00C7F3D2 /* CityText.swift */; };
+		8C414FEA2BE1922300C7F3D2 /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C414FE92BE1922300C7F3D2 /* Background.swift */; };
+		8C414FEC2BE1924800C7F3D2 /* MainDayWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C414FEB2BE1924800C7F3D2 /* MainDayWeather.swift */; };
 		ED475A9C25485F8E005997DF /* SwiftUI_WeatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED475A9B25485F8E005997DF /* SwiftUI_WeatherApp.swift */; };
 		ED475A9E25485F8E005997DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED475A9D25485F8E005997DF /* ContentView.swift */; };
 		ED475AA025485F8E005997DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED475A9F25485F8E005997DF /* Assets.xcassets */; };
@@ -15,6 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8C414FE52BE191B100C7F3D2 /* MainWeatherStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWeatherStatus.swift; sourceTree = "<group>"; };
+		8C414FE72BE191EC00C7F3D2 /* CityText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityText.swift; sourceTree = "<group>"; };
+		8C414FE92BE1922300C7F3D2 /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
+		8C414FEB2BE1924800C7F3D2 /* MainDayWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainDayWeather.swift; sourceTree = "<group>"; };
 		ED475A9825485F8D005997DF /* SwiftUI-Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Weather.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED475A9B25485F8E005997DF /* SwiftUI_WeatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_WeatherApp.swift; sourceTree = "<group>"; };
 		ED475A9D25485F8E005997DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,6 +65,10 @@
 				ED475A9B25485F8E005997DF /* SwiftUI_WeatherApp.swift */,
 				ED475AAB25489E44005997DF /* WeatherButton.swift */,
 				ED475A9D25485F8E005997DF /* ContentView.swift */,
+				8C414FEB2BE1924800C7F3D2 /* MainDayWeather.swift */,
+				8C414FE92BE1922300C7F3D2 /* Background.swift */,
+				8C414FE72BE191EC00C7F3D2 /* CityText.swift */,
+				8C414FE52BE191B100C7F3D2 /* MainWeatherStatus.swift */,
 				ED475A9F25485F8E005997DF /* Assets.xcassets */,
 				ED475AA425485F8E005997DF /* Info.plist */,
 				ED475AA125485F8E005997DF /* Preview Content */,
@@ -144,6 +156,10 @@
 				ED475A9E25485F8E005997DF /* ContentView.swift in Sources */,
 				ED475A9C25485F8E005997DF /* SwiftUI_WeatherApp.swift in Sources */,
 				ED475AAC25489E44005997DF /* WeatherButton.swift in Sources */,
+				8C414FEC2BE1924800C7F3D2 /* MainDayWeather.swift in Sources */,
+				8C414FE82BE191EC00C7F3D2 /* CityText.swift in Sources */,
+				8C414FE62BE191B100C7F3D2 /* MainWeatherStatus.swift in Sources */,
+				8C414FEA2BE1922300C7F3D2 /* Background.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +289,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-Weather/Preview Content\"";
-				DEVELOPMENT_TEAM = H69U55MWXW;
+				DEVELOPMENT_TEAM = 8ZJ9VQQLXJ;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "SwiftUI-Weather/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
@@ -281,7 +297,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "co.seanallen.SwiftUI-Weather";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apimonster.SwiftUI-Weather";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -295,7 +311,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-Weather/Preview Content\"";
-				DEVELOPMENT_TEAM = H69U55MWXW;
+				DEVELOPMENT_TEAM = 8ZJ9VQQLXJ;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "SwiftUI-Weather/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
@@ -303,7 +319,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "co.seanallen.SwiftUI-Weather";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apimonster.SwiftUI-Weather";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
