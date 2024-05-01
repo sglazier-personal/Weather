@@ -13,12 +13,12 @@ struct ContentView: View {
     
     var body: some View {
         ZStack {
-            BackgroundView(isNight: $isNight)
+            BackgroundView(isNight: isNight)
             VStack {
                 CityTextView(cityName: "Cupertino, CA")
             
                 MainWeatherStatusView(imageName: isNight ? "moon.stars.fill" : "cloud.sun.fill", 
-                                  temperature: 77)
+                                      temperature: isNight ? 55 : 78)
                 
                 HStack(spacing: 20){
                     WeatherDayView(dayOfWeek: "TUE",
@@ -46,7 +46,7 @@ struct ContentView: View {
                 Button {
                     isNight.toggle()
                 } label: {
-                    WeatherButton(title: "Change Day / Night",
+                    WeatherButton(title: "Toggle Day / Night",
                                   textColor: .blue,
                                   backgroundColor: .white)
                 }

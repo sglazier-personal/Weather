@@ -16,10 +16,11 @@ struct MainWeatherStatusView: View {
         VStack(spacing: 8) {
             Image(systemName:imageName)
                 .renderingMode(.original)
+                .symbolRenderingMode(.multicolor)
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 180, height: 180)
-            Text("76°")
+            Text("\(temperature)°")
                 .font(.system(size:70, weight: .medium))
                 .foregroundColor(.white)
         }
